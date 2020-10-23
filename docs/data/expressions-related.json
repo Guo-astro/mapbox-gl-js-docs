@@ -154,7 +154,7 @@
     },
     {
       "title": "Variable label placement",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/variable-label"
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/variable-label-placement"
     }
   ],
   "downcase": [
@@ -234,7 +234,7 @@
     },
     {
       "title": "Display and style rich text labels",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels-labels"
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels"
     },
     {
       "title": "Use a fallback image",
@@ -242,7 +242,7 @@
     },
     {
       "title": "Filter features within map view",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view-view"
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view"
     },
     {
       "title": "Draw GeoJSON points",
@@ -400,7 +400,7 @@
   "literal": [
     {
       "title": "Display and style rich text labels",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels-labels"
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels"
     }
   ],
   "match": [
@@ -418,7 +418,7 @@
     },
     {
       "title": "Filter features within map view",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view-view"
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view"
     },
     {
       "title": "Change worldview of administrative boundaries",
