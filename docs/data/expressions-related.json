@@ -31,16 +31,20 @@
   ],
   "==": [
     {
-      "title": "Filter symbols by toggling a list",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-markers"
-    },
-    {
       "title": "Add multiple geometries from one GeoJSON source",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/multiple-geometries"
     },
     {
       "title": "Create a time slider",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Filter symbols by toggling a list",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-markers"
     }
   ],
   ">": [
@@ -230,6 +234,10 @@
     }
   ],
   "interpolate": [
+    {
+      "title": "Animate map camera around a point",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-camera-around-point"
+    },
     {
       "title": "Change building color based on zoom level",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-building-color-based-on-zoom-level"
