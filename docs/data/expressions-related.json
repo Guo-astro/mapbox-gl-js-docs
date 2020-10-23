@@ -1,8 +1,514 @@
 {
+  "!": [
+    {
+      "title": "Create and style clusters",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster"
+    }
+  ],
+  "!=": [
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    }
+  ],
+  "/": [
+    {
+      "title": "Visualize population Visualize population density",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
+    }
+  ],
+  "<": [
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    }
+  ],
+  "<=": [
+    {
+      "title": "Animate 3D buildings based on ambient sounds",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/dancing-buildings"
+    }
+  ],
+  "==": [
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Animate map camera around a point",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-camera-around-point"
+    },
+    {
+      "title": "Animate 3D buildings based on ambient sounds",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/dancing-buildings"
+    },
+    {
+      "title": "Filter symbols by text input",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-markers-by-input"
+    },
+    {
+      "title": "Filter symbols by toggling a list",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-markers"
+    },
+    {
+      "title": "Add an Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map"
+    },
+    {
+      "title": "Add multiple geometries from one GeoJSON source",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/multiple-geometries"
+    },
+    {
+      "title": "Play map locations as a slideshow",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/playback-locations"
+    },
+    {
+      "title": "Create a time slider",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation"
+    },
+    {
+      "title": "Change worldview of Change worldview of administrative boundaries boundaries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
+    },
+    {
+      "title": "Update a choropleth layer by zoom level",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth"
+    }
+  ],
+  ">": [
+    {
+      "title": "Animate 3D buildings based on ambient sounds",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/dancing-buildings"
+    }
+  ],
+  ">=": [
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    }
+  ],
+  "all": [
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Animate 3D buildings based on ambient sounds",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/dancing-buildings"
+    },
+    {
+      "title": "Add an Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map"
+    },
+    {
+      "title": "Change worldview of Change worldview of administrative boundaries boundaries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
+    }
+  ],
+  "boolean": [
+    {
+      "title": "Create a hover effect",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/hover-styles"
+    }
+  ],
+  "case": [
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Create a hover effect",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/hover-styles"
+    }
+  ],
+  "coalesce": [
+    {
+      "title": "Use a fallback image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image"
+    }
+  ],
+  "concat": [
+    {
+      "title": "Add a generated icon to the map",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/add-image-missing-generated"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Use a fallback image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image"
+    },
+    {
+      "title": "Create a time slider",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation"
+    },
+    {
+      "title": "Variable label placement",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/variable-label"
+    }
+  ],
+  "downcase": [
+    {
+      "title": "Change the case of labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-case-of-labels"
+    }
+  ],
+  "feature-state": [
+    {
+      "title": "Create a hover effect",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/hover-styles"
+    }
+  ],
+  "format": [
+    {
+      "title": "Change the case of labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-case-of-labels"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Display and style rich text labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels"
+    }
+  ],
+  "get": [
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Extrude polygons for 3D indoor mapping",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-extrusion-floorplan"
+    },
+    {
+      "title": "Add a generated icon to the map",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/add-image-missing-generated"
+    },
+    {
+      "title": "Add a stretchable image to the map",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/add-image-stretchable"
+    },
+    {
+      "title": "Animate map camera around a point",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-camera-around-point"
+    },
+    {
+      "title": "Animate map camera around a point",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-point-along-route"
+    },
+    {
+      "title": "Change the case of labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-case-of-labels"
+    },
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    },
+    {
+      "title": "Create and style clusters",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster"
+    },
+    {
+      "title": "Style circles with a data-driven property",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-driven-circle-colors"
+    },
+    {
+      "title": "Style lines with a data-driven property",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-driven-lines"
+    },
+    {
+      "title": "Join local JSON data with vector tile geometries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-join"
+    },
+    {
+      "title": "Display and style rich text labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels-labels"
+    },
+    {
+      "title": "Use a fallback image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image"
+    },
+    {
+      "title": "Filter features within map view",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view-view"
+    },
+    {
+      "title": "Draw GeoJSON points",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/geojson-markers"
+    },
+    {
+      "title": "Create a heatmap layer",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/heatmap-layer"
+    },
+    {
+      "title": "Add an Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map"
+    },
+    {
+      "title": "Change a map's language",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/language-switch"
+    },
+    {
+      "title": "Style ocean depth data",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/style-ocean-depth-data"
+    },
+    {
+      "title": "Create a time slider",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation"
+    },
+    {
+      "title": "Change worldview of Change worldview of administrative boundaries boundaries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
+    },
+    {
+      "title": "Update a choropleth layer by zoom Update a choropleth layer by zoom level",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth"
+    },
+    {
+      "title": "Variable label placement",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/variable-label-placement"
+    },
+    {
+      "title": "Visualize population density",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
+    }
+  ],
+  "has": [
+    {
+      "title": "Create and style clusters",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Filter features within map view",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view"
+    }
+  ],
+  "id": [
+    {
+      "title": "Get features under the mouse pointer",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures"
+    }
+  ],
+  "image": [
+    {
+      "title": "Animate a series of images",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-images"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Use a fallback image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image"
+    },
+    {
+      "title": "Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map"
+    }
+  ],
+  "in": [
+    {
+      "title": "Measure distances",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/measure"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Highlight features containing similar data",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/query-similar-features"
+    },
+    {
+      "title": "Get features under the mouse pointer",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures-around-point"
+    },
+    {
+      "title": "Change worldview of Change worldview of administrative boundaries boundaries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
+    },
+    {
+      "title": "Highlight features within a bounding box",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/using-box-queryrenderedfeatures"
+    }
+  ],
+  "interpolate": [
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Animate map camera around a point",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-camera-around-point"
+    },
+    {
+      "title": "Change building color based on zoom level",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-building-color-based-on-zoom-level"
+    },
+    {
+      "title": "Create a heatmap layer",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/heatmap-layer"
+    },
+    {
+      "title": "Add an Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map"
+    },
+    {
+      "title": "Create a gradient line using an expression",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/line-gradient"
+    },
+    {
+      "title": "Style ocean depth data",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/style-ocean-depth-data"
+    },
+    {
+      "title": "Create a time slider",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation"
+    },
+    {
+      "title": "Update a choropleth layer by zoom Update a choropleth layer by zoom level",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth"
+    },
+    {
+      "title": "Visualize population density",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
+    }
+  ],
+  "let": [
+    {
+      "title": "Visualize population Visualize population density",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
+    }
+  ],
+  "literal": [
+    {
+      "title": "Display and style rich text labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels-labels"
+    }
+  ],
   "match": [
     {
       "title": "Style circles with a data-driven property",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-driven-circle-colors/"
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-driven-circle-colors"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Join local JSON data with vector tile geometries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-join"
+    },
+    {
+      "title": "Filter features within map view",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view-view"
+    },
+    {
+      "title": "Change worldview of administrative boundaries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
+    }
+  ],
+  "number-format": [
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html"
+    }
+  ],
+  "properties": [
+    {
+      "title": "Get features under the mouse pointer",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures"
+    }
+  ],
+  "round": [
+    {
+      "title": "Animate a line",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-a-line"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings"
+    },
+    {
+      "title": "Add a GeoJSON line",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/geojson-line"
+    },
+    {
+      "title": "Create a gradient line using an expression",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/line-gradient"
+    },
+    {
+      "title": "Measure distances",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/measure"
+    },
+    {
+      "title": "Add a third party vector tile source",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/third-party"
+    },
+    {
+      "title": "Show and hide layers",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers"
+    },
+    {
+      "title": "Add a vector tile source",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/vector-source"
+    },
+    {
+      "title": "Fit to the bounds of a LineString",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/zoomto-linestring"
+    }
+  ],
+  "step": [
+    {
+      "title": "Create and style clusters",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster"
+    }
+  ],
+  "to-color": [
+    {
+      "title": "Visualize population Visualize population density",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
+    }
+  ],
+  "to-string": [
+    {
+      "title": "Create a time slider",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation"
+    }
+  ],
+  "upcase": [
+    {
+      "title": "Change the case of labels",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-case-of-labels"
+    }
+  ],
+  "var": [
+    {
+      "title": "Visualize population Visualize population density",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
+    }
+  ],
+  "zoom": [
+    {
+      "title": "Update a choropleth layer by zoom Update a choropleth layer by zoom level",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth"
     }
   ]
 }
