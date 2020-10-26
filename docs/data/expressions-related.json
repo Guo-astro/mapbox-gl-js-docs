@@ -13,7 +13,7 @@
   ],
   "/": [
     {
-      "title": "Visualize population Visualize population density",
+      "title": "Visualize population density",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
     }
   ],
@@ -73,11 +73,11 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/dancing-buildings"
     },
     {
-      "title": "Add an Add an image",
+      "title": "Add an image",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map"
     },
     {
-      "title": "Change worldview of Change worldview of administrative boundaries boundaries",
+      "title": "Change worldview of administrative boundaries",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
     }
   ],
@@ -225,7 +225,7 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures-around-point"
     },
     {
-      "title": "Change worldview of Change worldview of administrative boundaries boundaries",
+      "title": "Change worldview of administrative boundaries",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews"
     },
     {
@@ -253,7 +253,7 @@
   ],
   "let": [
     {
-      "title": "Visualize population Visualize population density",
+      "title": "Visualize population density",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
     }
   ],
@@ -319,7 +319,7 @@
   ],
   "to-color": [
     {
-      "title": "Visualize population Visualize population density",
+      "title": "Visualize population density",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
     }
   ],
@@ -337,13 +337,13 @@
   ],
   "var": [
     {
-      "title": "Visualize population Visualize population density",
+      "title": "Visualize population density",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density"
     }
   ],
   "zoom": [
     {
-      "title": "Update a choropleth layer by zoom Update a choropleth layer by zoom level",
+      "title": "Update a choropleth layer by zoom level",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth"
     }
   ]
