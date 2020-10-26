@@ -61,24 +61,24 @@
   ],
   "all": [
     {
-      "title": "Display HTML clusters with custom properties",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/"
-    },
-    {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
+      "title": "Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/"
     },
     {
       "title": "Animate 3D buildings based on ambient sounds",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/dancing-buildings/"
     },
     {
-      "title": "Add an image",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/"
-    },
-    {
       "title": "Change worldview of administrative boundaries",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews/"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
+    },
+    {
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/"
     }
   ],
   "boolean": [
@@ -89,16 +89,16 @@
   ],
   "case": [
     {
-      "title": "Display HTML clusters with custom properties",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/"
+      "title": "Create a hover effect",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/hover-styles/"
     },
     {
       "title": "Display buildings in 3D",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
     },
     {
-      "title": "Create a hover effect",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/hover-styles/"
+      "title": "Display HTML clusters with custom properties",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/"
     }
   ],
   "coalesce": [
@@ -113,16 +113,16 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/add-image-missing-generated/"
     },
     {
+      "title": "Create a time slider",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/"
+    },
+    {
       "title": "Display buildings in 3D",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
     },
     {
       "title": "Use a fallback image",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image/"
-    },
-    {
-      "title": "Create a time slider",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/"
     },
     {
       "title": "Variable label placement",
@@ -147,12 +147,12 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/change-case-of-labels/"
     },
     {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
-    },
-    {
       "title": "Display and style rich text labels",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/display-and-style-rich-text-labels/"
+    },
+    {
+      "title": "Display buildings in 3D",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
     }
   ],
   "get": [
@@ -191,6 +191,10 @@
   ],
   "image": [
     {
+      "title": "Add an image",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/"
+    },
+    {
       "title": "Animate a series of images",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-images/"
     },
@@ -201,28 +205,24 @@
     {
       "title": "Use a fallback image",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image/"
-    },
-    {
-      "title": "Add an image",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/"
     }
   ],
   "in": [
     {
-      "title": "Measure distances",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/measure/"
+      "title": "Get features under the mouse pointer",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures-around-point/"
     },
     {
       "title": "Highlight features containing similar data",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/query-similar-features/"
     },
     {
-      "title": "Get features under the mouse pointer",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures-around-point/"
-    },
-    {
       "title": "Highlight features within a bounding box",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/using-box-queryrenderedfeatures/"
+    },
+    {
+      "title": "Measure distances",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/measure/"
     }
   ],
   "interpolate": [
@@ -257,24 +257,24 @@
   ],
   "match": [
     {
-      "title": "Style circles with a data-driven property",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-driven-circle-colors/"
+      "title": "Change worldview of administrative boundaries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews/"
     },
     {
       "title": "Display buildings in 3D",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
     },
     {
-      "title": "Join local JSON data with vector tile geometries",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-join/"
-    },
-    {
       "title": "Filter features within map view",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view/"
     },
     {
-      "title": "Change worldview of administrative boundaries",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews/"
+      "title": "Join local JSON data with vector tile geometries",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-join/"
+    },
+    {
+      "title": "Style circles with a data-driven property",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/example/data-driven-circle-colors/"
     }
   ],
   "number-format": [
