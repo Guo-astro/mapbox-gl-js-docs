@@ -14,11 +14,20 @@ export default class ExpressionReference extends React.Component {
             (g) => g.name === this.props.group
         )[0];
 
+        const SubHeading = ({ children }) => (
+            <h3
+                style={{ fontSize: '15px', lineHeight: '24px' }}
+                className="txt-bold mb6 unprose pt0"
+            >
+                {children}
+            </h3>
+        );
+
         const Related = ({ links }) => {
             if (!links || !links.length === 0) return;
             return (
-                <div className="">
-                    <div className="txt-bold mb6">Related</div>
+                <React.Fragment>
+                    <SubHeading>Related</SubHeading>
                     <ul className="mb18">
                         {links.map((link) => (
                             <li key={link.title}>
@@ -26,38 +35,32 @@ export default class ExpressionReference extends React.Component {
                             </li>
                         ))}
                     </ul>
-                </div>
+                </React.Fragment>
             );
         };
-        return (
-            <React.Fragment>
-                {group.expressions.map(({ name, doc, type, sdkSupport }) => (
-                    <React.Fragment key={name}>
-                        <Property
-                            id={`${
-                                group.name === 'Types' ? 'types-' : ''
-                            }${name}`}
-                        >
-                            {name}
-                        </Property>
-
-                        {doc && <div className="mb12">{md(doc)}</div>}
-
-                        <div className="txt-bold mb6">Example</div>
-                        {type.map((overload, i) => (
-                            <div key={i}>
-                                {highlightJavascript(
-                                    renderSignature(name, overload)
-                                )}
-                            </div>
-                        ))}
-                        {related[name] && <Related links={related[name]} />}
-
-                        {sdkSupport && <SDKSupportTable {...sdkSupport} />}
-                    </React.Fragment>
+        return group.expressions.map(({ name, doc, type, sdkSupport }) => (
+            <React.Fragment key={name}>
+                {/* Section heading */}
+                <Property
+                    id={`${group.name === 'Types' ? 'types-' : ''}${name}`}
+                >
+                    {name}
+                </Property>
+                {/* Description */}
+                {doc && <div className="mb12">{md(doc)}</div>}
+                {/* Example */}
+                <SubHeading>Example</SubHeading>
+                {type.map((overload, i) => (
+                    <div key={i}>
+                        {highlightJavascript(renderSignature(name, overload))}
+                    </div>
                 ))}
+                {/* Show related links if available */}
+                {related[name] && <Related links={related[name]} />}
+                {/* Show SDK support table if available */}
+                {sdkSupport && <SDKSupportTable {...sdkSupport} />}
             </React.Fragment>
-        );
+        ));
     }
 }
 
