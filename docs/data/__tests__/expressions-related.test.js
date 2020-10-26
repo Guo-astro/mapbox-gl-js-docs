@@ -10,6 +10,9 @@ describe('expressions-related', () => {
                 expect(link.title).toBeDefined();
                 expect(link.href).toBeDefined();
             });
+            it('No more than 5 related links per property', () => {
+                expect(links.length).toBeLessThan(6);
+            });
             it('All links are live', async () => {
                 const allLinks = links.map((f) => f.href);
                 const results = await checkLinks(allLinks, {
