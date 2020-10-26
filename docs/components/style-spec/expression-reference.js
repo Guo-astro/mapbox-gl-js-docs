@@ -48,8 +48,8 @@ export default class ExpressionReference extends React.Component {
                 </Property>
                 {/* Description */}
                 {doc && <div className="mb12">{md(doc)}</div>}
-                {/* Example */}
-                <SubHeading>Example</SubHeading>
+                {/* Syntax */}
+                <SubHeading>Syntax</SubHeading>
                 {type.map((overload, i) => (
                     <div key={i}>
                         {highlightJavascript(renderSignature(name, overload))}
