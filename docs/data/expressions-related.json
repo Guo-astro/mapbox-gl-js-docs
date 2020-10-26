@@ -213,20 +213,12 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/measure/"
     },
     {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
-    },
-    {
       "title": "Highlight features containing similar data",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/query-similar-features/"
     },
     {
       "title": "Get features under the mouse pointer",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures-around-point/"
-    },
-    {
-      "title": "Change worldview of administrative boundaries",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews/"
     },
     {
       "title": "Highlight features within a bounding box",
