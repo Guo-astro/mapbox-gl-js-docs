@@ -29,6 +29,11 @@ var {
     font-style: italic;
 }
 
+.style-spec-img-sm {
+    width: 30%;
+    height: auto;
+}
+
 /* add spacing to bottom of each h2 section*/
 .style-spec-page .section-h2 {
     padding-bottom: 30px;
