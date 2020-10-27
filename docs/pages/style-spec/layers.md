@@ -12,6 +12,8 @@ prependJs:
     - "import { layerTypes } from '../../data/types';"
     - "import combineItems from '../../util/combine-items';"
     - "import ref from '@mapbox/mapbox-gl-style-spec/reference/latest';"
+    - "import AppropriateImage from '../../components/appropriate-image';"
+
 ---
 
 A style's `layers` property lists all the layers available in that style. The type of layer is specified by the `"type"` property, and must be one of {{layerTypes.map((t, i) => <var key={i}>{t}</var>).reduce((prev, curr) => [prev, ', ', curr])}}.
@@ -55,37 +57,127 @@ https://github.com/mapbox/mapbox-gl-js/blob/main/src/style-spec/reference/v8.jso
 
 ## background
 
+{{
+  <AppropriateImage
+    imageId="layer-background"
+    className="style-spec-img-sm"
+    alt="Antique map style with a brown halftone background pattern."
+  />
+}}
+
+The background color or pattern of the map.
+
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'background')} /> }}
 
 ## fill
+
+{{
+  <AppropriateImage
+    imageId="layer-fill"
+    className="style-spec-img-sm"
+    alt="Map with a pink isochrone polygon surrounding the city of Atlanta."
+  />
+}}
+
+A filled polygon with an optional stroked border.
 
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'fill')} /> }}
 
 ## line
 
+{{
+  <AppropriateImage
+    imageId="layer-line"
+    className="style-spec-img-sm"
+    alt="Outdoors style map with a dotted red line showing a hiking path."
+  />
+}}
+
+A stroked line.
+
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'line')} /> }}
 
 ## symbol
+
+{{
+  <AppropriateImage
+    imageId="layer-symbol"
+    className="style-spec-img-sm"
+    alt="Map with thirty shopping bag icons, color-coded red, orange, and green."
+  />
+}}
+
+An icon or a text label.
 
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'symbol')} /> }}
 
 ## raster
 
+{{
+  <AppropriateImage
+    imageId="layer-raster"
+    className="style-spec-img-sm"
+    alt="Map with historical maps overlayed on modern cities."
+  />
+}}
+
+Raster map textures such as satellite imagery.
+
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'raster')} /> }}
 
 ## circle
+
+{{
+  <AppropriateImage
+    imageId="layer-circles"
+    className="style-spec-img-sm"
+    alt="Map with circles of different sizes and colors."
+  />
+}}
+
+A filled circle.
 
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'circle')} /> }}
 
 ## fill-extrusion
 
+{{
+  <AppropriateImage
+    imageId="layer-fill-extrusion"
+    className="style-spec-img-sm"
+    alt="Dark style map with data-driven extrusions rising up in 3D, in different shades of blue."
+  />
+}}
+
+An extruded (3D) polygon.
+
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'fill-extrusion')} /> }}
 
 ## heatmap
 
+{{
+  <AppropriateImage
+    imageId="layer-heatmap"
+    className="style-spec-img-sm"
+    alt="Dark map with a heatmap layer glowing red inside and white outside."
+  />
+}}
+
+A heatmap.
+
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'heatmap')} /> }}
 
 ## hillshade
+
+{{
+  <AppropriateImage
+    imageId="layer-hillshade"
+    className="style-spec-img-sm"
+    alt="Map of Mount Fuji rising up with striking texture and shading."
+  />
+}}
+
+Client-side hillshading visualization based on DEM data. The implementation now only supports Mapbox Terrain RGB and Mapzen Terrarium tiles.
 
 {{<Items headingLevel="3" entry={combineItems(['layout','paint'], 'hillshade')} /> }}
 
