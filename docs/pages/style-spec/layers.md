@@ -64,7 +64,6 @@ The [Vintage map style](https://blog.mapbox.com/designing-the-vintage-style-in-m
 {{
   <AppropriateImage
     imageId="layer-background"
-    className="style-spec-img-sm"
     alt="Antique map style with a brown halftone background pattern."
   />
 }}
@@ -80,7 +79,6 @@ This map of Washington, D.C. uses a `fill` style layer to render a [polygon gene
 {{
   <AppropriateImage
     imageId="layer-fill"
-    className="style-spec-img-sm"
     alt="Map with a pink isochrone polygon surrounding the city of Atlanta."
   />
 }}
@@ -96,7 +94,6 @@ This map uses a [`line-color`](https://docs.mapbox.com/mapbox-gl-js/style-spec/l
 {{
   <AppropriateImage
     imageId="layer-line"
-    className="style-spec-img-sm"
     alt="Outdoors style map with a dotted red line showing a hiking path."
   />
 }}
@@ -112,7 +109,6 @@ This [map of businesses near Denver, Colorado](https://docs.mapbox.com/help/trou
 {{
   <AppropriateImage
     imageId="layer-symbol"
-    className="style-spec-img-sm"
     alt="Map with thirty shopping bag icons, color-coded red, orange, and green."
   />
 }}
@@ -128,7 +124,6 @@ The [Mapping Inequality](https://dsl.richmond.edu/panorama/redlining/) project u
 {{
   <AppropriateImage
     imageId="layer-raster"
-    className="style-spec-img-sm"
     alt="Map with historical maps overlayed on modern cities."
   />
 }}
@@ -144,7 +139,6 @@ This [cluster map](https://docs.mapbox.com/mapbox-gl-js/example/cluster/) uses a
 {{
   <AppropriateImage
     imageId="layer-circles"
-    className="style-spec-img-sm"
     alt="Map with circles of different sizes and colors."
   />
 }}
@@ -156,7 +150,6 @@ This [cluster map](https://docs.mapbox.com/mapbox-gl-js/example/cluster/) uses a
 {{
   <AppropriateImage
     imageId="layer-fill-extrusion"
-    className="style-spec-img-sm"
     alt="Dark style map with data-driven extrusions rising up in 3D, in different shades of blue."
   />
 }}
@@ -170,7 +163,6 @@ An extruded (3D) polygon.
 {{
   <AppropriateImage
     imageId="layer-heatmap"
-    className="style-spec-img-sm"
     alt="Dark map with a heatmap layer glowing red inside and white outside."
   />
 }}
@@ -184,7 +176,6 @@ A heatmap.
 {{
   <AppropriateImage
     imageId="layer-hillshade"
-    className="style-spec-img-sm"
     alt="Map of Mount Fuji rising up with striking texture and shading."
   />
 }}
