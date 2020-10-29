@@ -89,7 +89,7 @@ This map of Washington, D.C. uses the [`fill-opacity`](/mapbox-gl-js/style-spec/
 
 A `line` style layer renders one or more stroked polylines on the map. You can use a line layer to configure the visual appearance of polyline or multipolyline features.
 
-This map of a [Strava](https://www.mapbox.com/showcase/strava) user's hike through Grand Teton National Park uses the [`line-color`](/mapbox-gl-js/style-spec/layers/#paint-line-line-color) paint property to display the red line along the user's route.
+This map of a [Strava](https://www.mapbox.com/showcase/strava) user's hike through Grand Teton National Park uses the [`line-color`](/mapbox-gl-js/style-spec/layers/#paint-line-line-color) and [`line-width`](/mapbox-gl-js/style-spec/layers/#paint-line-line-width) paint properties to style the strong red line of the user's route.
 
 {{
   <AppropriateImage
@@ -134,7 +134,7 @@ This [Interactive SWIR Imagery Map by Maxar](https://blog.maxar.com/news-events/
 
 A `circle` style layer renders one or more filled circles on a map. You can use a circle layer to configure the visual appearance of point or point collection features in vector tiles. A circle layer renders circles whose radii are measured in screen units.
 
-This [cluster map](/mapbox-gl-js/example/cluster/) uses a circle layer with a “GeoJSON” data source, and sets the source's [`cluster`](mapbox-gl-js/style-spec/sources/#geojson-cluster) property to `true` to visualize points as clusters.
+This [cluster map](/mapbox-gl-js/example/cluster/) uses a circle layer with a GeoJSON data source, and sets the source's [`cluster`](mapbox-gl-js/style-spec/sources/#geojson-cluster) property to `true` to visualize points as clusters.
 
 {{
   <AppropriateImage
@@ -164,7 +164,7 @@ This map uses an external dataset to provide data-driven values for the [`fill-e
 
 A `heatmap` style layer renders a range of colors to represent the density of points in an area.
 
-[This visualization of earthquake data](/mapbox-gl-js/example/heatmap-layer/) uses a `heatmap` layer with carefully defined [paint](/mapbox-gl-js/style-spec/layers/#paint-property) properties to highlight areas where earthquake frequency is high, and many points are clustered closely together.
+[This visualization of earthquake data](/mapbox-gl-js/example/heatmap-layer/) uses a heatmap layer with carefully defined [paint](/mapbox-gl-js/style-spec/layers/#paint-property) properties to highlight areas where earthquake frequency is high, and many points are clustered closely together.
 
 {{
   <AppropriateImage
