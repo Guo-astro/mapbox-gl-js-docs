@@ -64,7 +64,7 @@ The [Vintage map style](https://blog.mapbox.com/designing-the-vintage-style-in-m
 {{
   <AppropriateImage
     imageId="layer-background"
-    alt="Antique map style with a brown halftone background pattern."
+    alt="Vintage map style with a brown halftone background pattern."
   />
 }}
 
@@ -79,7 +79,7 @@ This map of Washington, D.C. uses the [`fill-opacity`](/mapbox-gl-js/style-spec/
 {{
   <AppropriateImage
     imageId="layer-fill"
-    alt="Map with a pink isochrone polygon surrounding the city of Atlanta."
+    alt="Map of Washington, D.C. with a purple isochrone polygon in the center."
   />
 }}
 
@@ -94,7 +94,7 @@ This map of a [Strava](https://www.mapbox.com/showcase/strava) user's hike throu
 {{
   <AppropriateImage
     imageId="layer-line"
-    alt="Outdoors style map with a dotted red line showing a hiking path."
+    alt="Outdoors style map with a red line showing a hiking path."
   />
 }}
 
@@ -134,7 +134,7 @@ This [Interactive SWIR Imagery Map by Maxar](https://blog.maxar.com/news-events/
 
 A `circle` style layer renders one or more filled circles on a map. You can use a circle layer to configure the visual appearance of point or point collection features in vector tiles. A circle layer renders circles whose radii are measured in screen units.
 
-This [cluster map](/mapbox-gl-js/example/cluster/) uses a circle layer with a GeoJSON data source, and sets the source's [`cluster`](mapbox-gl-js/style-spec/sources/#geojson-cluster) property to `true` to visualize points as clusters.
+This [cluster map](/mapbox-gl-js/example/cluster/) uses a circle layer with a GeoJSON data source and sets the source's [`cluster`](mapbox-gl-js/style-spec/sources/#geojson-cluster) property to `true` to visualize points as clusters.
 
 {{
   <AppropriateImage
@@ -154,7 +154,7 @@ This map uses an external dataset to provide data-driven values for the [`fill-e
 {{
   <AppropriateImage
     imageId="layer-fill-extrusion"
-    alt="Dark style map with data-driven extrusions rising up in 3D, in different shades of blue."
+    alt="Map of Europe and North Africa with countries extruded to various heights."
   />
 }}
 
@@ -164,7 +164,7 @@ This map uses an external dataset to provide data-driven values for the [`fill-e
 
 A `heatmap` style layer renders a range of colors to represent the density of points in an area.
 
-[This visualization of earthquake data](/mapbox-gl-js/example/heatmap-layer/) uses a heatmap layer with carefully defined [paint](/mapbox-gl-js/style-spec/layers/#paint-property) properties to highlight areas where earthquake frequency is high, and many points are clustered closely together.
+[This visualization of earthquake data](/mapbox-gl-js/example/heatmap-layer/) uses a heatmap layer with carefully defined [paint](/mapbox-gl-js/style-spec/layers/#paint-property) properties to highlight areas where earthquake frequency is high and many points are clustered closely together.
 
 {{
   <AppropriateImage
