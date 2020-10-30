@@ -289,20 +289,6 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures/"
     }
   ],
-  "round": [
-    {
-      "title": "Animate a line",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-a-line/"
-    },
-    {
-      "title": "Create a gradient line using an expression",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/line-gradient/"
-    },
-    {
-      "title": "Show and hide layers",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-layers/"
-    }
-  ],
   "step": [
     {
       "title": "Create and style clusters",
