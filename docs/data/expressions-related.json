@@ -73,10 +73,6 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews/"
     },
     {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
-    },
-    {
       "title": "Display HTML clusters with custom properties",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/"
     }
@@ -91,10 +87,6 @@
     {
       "title": "Create a hover effect",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/hover-styles/"
-    },
-    {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
     },
     {
       "title": "Display HTML clusters with custom properties",
@@ -115,10 +107,6 @@
     {
       "title": "Create a time slider",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/timeline-animation/"
-    },
-    {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
     },
     {
       "title": "Use a fallback image",
@@ -175,33 +163,11 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster/"
     },
     {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
-    },
-    {
       "title": "Filter features within map view",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view/"
     }
   ],
-  "id": [
-    {
-      "title": "Get features under the mouse pointer",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures/"
-    }
-  ],
   "image": [
-    {
-      "title": "Add an image",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/image-on-a-map/"
-    },
-    {
-      "title": "Animate a series of images",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/animate-images/"
-    },
-    {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
-    },
     {
       "title": "Use a fallback image",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/fallback-image/"
@@ -261,10 +227,6 @@
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/toggle-worldviews/"
     },
     {
-      "title": "Display buildings in 3D",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/3d-buildings/"
-    },
-    {
       "title": "Filter features within map view",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/filter-features-within-map-view/"
     },
@@ -281,12 +243,6 @@
     {
       "title": "Display HTML clusters with custom properties",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/cluster-html/"
-    }
-  ],
-  "properties": [
-    {
-      "title": "Get features under the mouse pointer",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/queryrenderedfeatures/"
     }
   ],
   "step": [
@@ -317,12 +273,6 @@
     {
       "title": "Visualize population density",
       "href": "https://docs.mapbox.com/mapbox-gl-js/example/visualize-population-density/"
-    }
-  ],
-  "zoom": [
-    {
-      "title": "Update a choropleth layer by zoom level",
-      "href": "https://docs.mapbox.com/mapbox-gl-js/example/updating-choropleth/"
     }
   ]
 }
